@@ -1,0 +1,7 @@
+# Required
+# None — system_health.py runs with zero dependencies out of the box
+
+# Optional — install for enhanced metrics
+psutil>=5.9.0         # Enhanced cross-platform CPU/memory/disk/network stats
+pywin32>=305          # Windows Event Log reading (Windows only)
+colorama>=0.4.6       # Color-coded terminal output on Windows
