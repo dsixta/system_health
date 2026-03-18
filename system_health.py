@@ -702,7 +702,7 @@ class MemoryInfo:
                     procs.append({
                         "pid":     int(parts[1]),
                         "name":    parts[10][:40],
-                        "mem_b":   0,
+                        "mem_b":   int(parts[5]) * 1024,
                         "mem_pct": float(parts[3]),
                     })
             return procs
